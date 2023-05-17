@@ -125,8 +125,35 @@ body {
 
 
 #hero button{
-background-image: url("images/button.png");
-background-color: transparent;
-color:#9d82cf;
+background-color: #f7fafa;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;  
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+  color:#9d82cf;
 }
+
+#hero button:hover{
+   background-color: #fff;
+}
+
+#hero button:focus {
+  border-color: #9d82cf;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
 
